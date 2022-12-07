@@ -25,7 +25,13 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  3. dentro il for creare un altro if con multiplo di 5 che stampi buzz al posto del numero
  4. aggiungere un altro if che stampi ad ogni multiplo sia di 3 e di 5 fizzbuzz al posto del numero
  5. bonus
+ 6.crea elemto in html
+ 7. aggiungi elemento in js
+ 8.riempi la pagina con i numeri 
  */
+
+let text = document.getElementById("text");
+console.log(text);
 
 // 1 creare un for
 for (i = 1; i <= 100; i++) {
