@@ -34,12 +34,16 @@ let number;
 for (i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("fizzbuzz");
+    number = number + "" + "fizzbuzz";
   } else if (i % 3 === 0) {
     console.log("fizz");
+    number = number + "" + "fizz";
   } else if (i % 5 == 0) {
     console.log("buzz");
+    number = number + "" + "buzz";
   } else {
     console.log(i);
+    number = number + "" + i;
   }
 }
 let text = document.getElementById("text");
