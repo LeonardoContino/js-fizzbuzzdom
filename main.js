@@ -30,4 +30,9 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 // 1 creare un for
 for (i = 1; i <= 100; i++) {
   console.log(i);
+  n = 3;
+  if (i % n == 0) {
+    n = "Fizz";
+    console.log(n);
+  }
 }
