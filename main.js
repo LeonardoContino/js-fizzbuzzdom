@@ -19,3 +19,15 @@ BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 */
+/**
+ 1.fare un for ceh comprende i numeri da 1 a 100
+ 2.dentro il for creare un multiplo di 3 con if che stampi fizz al posto del numero
+ 3. dentro il for creare un altro if con multiplo di 5 che stampi buzz al posto del numero
+ 4. aggiungere un altro if che stampi ad ogni multiplo sia di 3 e di 5 fizzbuzz al posto del numero
+ 5. bonus
+ */
+
+// 1 creare un for
+for (i = 1; i <= 100; i++) {
+  console.log(i);
+}
