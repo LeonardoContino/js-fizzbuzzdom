@@ -29,7 +29,7 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  7. aggiungi elemento in js
  8.riempi la pagina con i numeri 
  */
-
+let number;
 // 1 creare un for
 for (i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
@@ -41,6 +41,6 @@ for (i = 1; i <= 100; i++) {
   } else {
     console.log(i);
   }
-  let text = document.getElementById("text");
-  text.innerHTML = i;
 }
+let text = document.getElementById("text");
+text.innerHTML = number;
