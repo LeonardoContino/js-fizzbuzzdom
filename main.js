@@ -29,25 +29,7 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 
 // 1 creare un for
 for (i = 1; i <= 100; i++) {
-  /* mult3 = 3;
-  mult5 = 5;
-  totalmult = mult3 + mult5;
-  
-  if (i % n == 0) {
-    mult3 = "Fizz";
-    console.log(mult3);
-  } else if () {
-    mult5= 'Buzz';
-    console.log(mult5);
-
-  } else{
-    totalmult= 'FizzBuzz';
-    console.log(totalmult);
-  } else{
-    console.log(i);
-  } */
-
-  if (i % 3 === 0 && i % 5 == 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("fizzbuzz");
   } else if (i % 3 === 0) {
     console.log("fizz");
